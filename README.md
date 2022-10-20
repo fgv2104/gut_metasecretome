@@ -3,7 +3,7 @@ mSystems publication [link here]
 
 We annotated MAGs from the Nayfach et al 2019 study (https://doi.org/10.1038/s41586-019-1058-x) using 
 SignalP, TMHMM, and eggNOG to obtain a 
-dataset of putative gut secreted proteins. Using Elinav et al study 
+dataset of putative gut secreted proteins. Using Elinav et al 2018 study 
 (https://doi.org/10.1016/j.cell.2018.08.041) we mapped metagenomic reads from 
 biopsies taken along the gastrointestinal tract to our secreted gut proteins reference and inferred the gastrointestinal sublocalization of secreted protein functions.
 
