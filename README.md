@@ -1,6 +1,4 @@
 # Characterization and biogeography of the healthy human gut metasecretome
-mSystems publication [link here]
-
 We annotated MAGs from the Nayfach et al 2019 study (https://doi.org/10.1038/s41586-019-1058-x) using 
 SignalP, TMHMM, and eggNOG to obtain a 
 dataset of putative gut secreted proteins. Using Elinav et al 2018 study 
