@@ -12,11 +12,11 @@ ORFs are named according to their MAG provenance. Metadata on these MAGs is avai
 - **Step 1**: Annotation of ORFs from Nayfach MAGs (20220906_HGM_prodigal)
 - **Step 2**: Clustering of ORFs (20220907_HGM_usearch)
 - **Step 3**: Annotation of large cluster centroids of all clusters in HGM
- - Annotation of signal peptides (20220927_HGM_signalP)
- - Annotation of transmembrane domains (20221003_HGM_Parks_tmhmm)
+  - Annotation of signal peptides (20220927_HGM_signalP)
+  - Annotation of transmembrane domains (20221003_HGM_Parks_tmhmm)
 - **Step 4**: Functional annotation
- - Annotation of COG categories and eggNOG proteins
- - Annotation of carbohydrate-active enzymes (20221005_hmmer_dbcan_HGM_representatives)
+  - Annotation of COG categories and eggNOG proteins
+  - Annotation of carbohydrate-active enzymes (20221005_hmmer_dbcan_HGM_representatives)
 
 ## Figure generation scripts
 Jupyter notebooks for generation of Figures 1, 2, and 3, and Supplementary 
