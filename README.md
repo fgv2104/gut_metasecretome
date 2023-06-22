@@ -9,14 +9,14 @@ The compressed fasta of human gut bacterial predicted secreted proteins availabl
 ORFs are named according to their MAG provenance. Metadata on these MAGs is available in the **20190504_HGM_prodigal folder**.
 
 ## The pipeline for generating these predicted secreted proteins involves the following steps:
--**Step 1**: Annotation of ORFs from Nayfach MAGs (20220906_HGM_prodigal)
--**Step 2**: Clustering of ORFs (20220907_HGM_usearch)
--**Step 3**: Annotation of large cluster centroids of all clusters in HGM
- -Annotation of signal peptides (20220927_HGM_signalP)
- -Annotation of transmembrane domains (20221003_HGM_Parks_tmhmm)
--**Step 4**: Functional annotation
- -Annotation of COG categories and eggNOG proteins
- -Annotation of carbohydrate-active enzymes (20221005_hmmer_dbcan_HGM_representatives)
+- **Step 1**: Annotation of ORFs from Nayfach MAGs (20220906_HGM_prodigal)
+- **Step 2**: Clustering of ORFs (20220907_HGM_usearch)
+- **Step 3**: Annotation of large cluster centroids of all clusters in HGM
+ - Annotation of signal peptides (20220927_HGM_signalP)
+ - Annotation of transmembrane domains (20221003_HGM_Parks_tmhmm)
+- **Step 4**: Functional annotation
+ - Annotation of COG categories and eggNOG proteins
+ - Annotation of carbohydrate-active enzymes (20221005_hmmer_dbcan_HGM_representatives)
 
 ## Figure generation scripts
 Jupyter notebooks for generation of Figures 1, 2, and 3, and Supplementary 
@@ -24,12 +24,12 @@ Figures S1, S2, along with the R script for generation of PCoA for Figure 3 of o
 Figure S4, S5, and S6 are found in **20210602_metasecretome_figures**.
 
 ## Further description of file contents:
--20220927_HGM_signalP: Bash script and markdown for SignalP annotation (includes TMHMM markdown).
--20221003_HGM_Parks_tmhmm: Bash script for TMHMM annotation.
--20220907_HGM_usearch: Fasta and large cluster centroids (representative sequences) of all clusters in HGM 
+- 20220927_HGM_signalP: Bash script and markdown for SignalP annotation (includes TMHMM markdown).
+- 20221003_HGM_Parks_tmhmm: Bash script for TMHMM annotation.
+- 20220907_HGM_usearch: Fasta and large cluster centroids (representative sequences) of all clusters in HGM 
 with at least 5 sequences; Compressed cluster information (.uc output file) for all clusters of HGM 
 predicted by USEARCH.
--20220906_HGM_prodigal: Markdown (includes USEARCH clustering commands) and bash script for ORF annotation 
+- 20220906_HGM_prodigal: Markdown (includes USEARCH clustering commands) and bash script for ORF annotation 
 using Prodigal.
--20221005_hmmer_dbcan_HGM_representatives: Bash script and markdown for annotation of HMMER against dbCAN 
+- 20221005_hmmer_dbcan_HGM_representatives: Bash script and markdown for annotation of HMMER against dbCAN 
 CAZyme database.
